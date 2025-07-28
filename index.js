@@ -53,7 +53,7 @@ app.post('/api/gerar-pix', async (req, res) => {
           number: cpf
         }
       },
-      postbackUrl: 'https://seusite.com/api/webhook-pix',
+      postbackUrl: 'http://vakinhaa.online',
       traceable: true,
       metadata: JSON.stringify({ origem: 'site oficial', campanha: 'cnu2025' })
     };
